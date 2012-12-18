@@ -3,7 +3,7 @@ layout: home
 title: "Ellioh-Thoto.gihub.com"
 ---
 
-Développeur passionné par le web, mon CV est disponible sur [LinkedIn](http://fr.linkedin.com/pub/ellioh-thot-o/59/919/b72)
+Développeur web, mon CV est disponible sur [LinkedIn](http://fr.linkedin.com/pub/ellioh-thot-o/59/919/b72)
 
 
 Projets
@@ -47,6 +47,6 @@ Arnaud Didry
 [84000 Avignon](http://maps.google.fr/maps?q=34+Rue+de+Saussure,+75017+Paris)
 
 [ellioh.thoto@gmail.com](mailto:ellioh.thoto@gmail.com)
-
+	
 
 
