@@ -9,9 +9,6 @@ Développeur web, mon CV est disponible sur [LinkedIn](http://fr.linkedin.com/pu
 Projets
 -------
 
-J'ai développé les projets libres suivants à l'Université d'Avignon ainsi que pendant mon temps libre.
-
-
 Mon [profil Github](https://github.com/ellioh-thoto).
 
 Articles
