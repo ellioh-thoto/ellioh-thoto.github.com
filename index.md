@@ -39,9 +39,9 @@ Mots clefs
 
 Contact
 -------
-Arnaud Didry
+Ellioh Thot'o
 
-[84000 Avignon](http://maps.google.fr/maps?q=34+Rue+de+Saussure,+75017+Paris)
+[84000 Avignon]()
 
 [ellioh.thoto@gmail.com](mailto:ellioh.thoto@gmail.com)
 	
