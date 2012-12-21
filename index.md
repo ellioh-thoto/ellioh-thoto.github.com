@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Ellioh-Thoto.gihub.com"
+title: "Ellioh Thot'o"
 ---
 
 Développeur web, mon CV est disponible sur [LinkedIn](http://fr.linkedin.com/pub/ellioh-thot-o/59/919/b72)
@@ -10,10 +10,6 @@ Projets
 -------
 
 Mon [profil Github](https://github.com/ellioh-thoto).
-
-
-
-
 
 Articles
 --------
