@@ -41,7 +41,7 @@ Contact
 -------
 Ellioh Thot'o
 
-[84000 Avignon]()
+84000 Avignon
 
 [ellioh.thoto@gmail.com](mailto:ellioh.thoto@gmail.com)
 	
