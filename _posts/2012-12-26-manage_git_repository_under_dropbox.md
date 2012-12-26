@@ -38,7 +38,7 @@ cd !$
 git --bare init
 {% endhighlight %}
 
-###3. Share the repository with you coworkers (Optionnal)###
+###3. Share the repository with your team mates (Optionnal)###
 
 Go to your Dropbox directory in the explorer. Right clicks on the repository folder : Dropbox > Share the folder.
 Then enter the mail of the persons you want to add to share you repository with.
@@ -61,7 +61,7 @@ git push origin master
 
 - Clone a repo from an existing directory
 
-The repository should have been already shared with you viaDropbox.
+The repository should have been already shared with you via Dropbox.
 
 {% highlight bash %}
 git clone ~/Dropbox/myrepo.git 
@@ -70,9 +70,8 @@ git clone ~/Dropbox/myrepo.git
 That's it! No more git user to use anymore, no more privileges to care about, Git and Dropbox made it possible! :)
 
 
-Reference
----------
+References
+----------
 - [http://tumblr.intranation.com/post/766290743/using-dropbox-git-repository](http://tumblr.intranation.com/post/766290743/using-dropbox-git-repository)
 - [http://gitref.org/](http://gitref.org/)
-
 - [https://www.dropbox.com/help/19/en](https://www.dropbox.com/help/19/en)
