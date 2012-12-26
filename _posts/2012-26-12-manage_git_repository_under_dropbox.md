@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Manage private Git repository using Dropbox
+title: My Git Memo 
 published: true  
 
 tags: 
