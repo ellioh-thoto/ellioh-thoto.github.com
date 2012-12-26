@@ -72,6 +72,6 @@ That's it! No more git user to use anymore, no more privileges to carry on, Git 
 
 Reference
 ---------
-[http://tumblr.intranation.com/post/766290743/using-dropbox-git-repository](http://tumblr.intranation.com/post/766290743/using-dropbox-git-repository)
-[http://gitref.org/](http://gitref.org/)
-[https://www.dropbox.com/help/19/en](https://www.dropbox.com/help/19/en)
+- [http://tumblr.intranation.com/post/766290743/using-dropbox-git-repository](http://tumblr.intranation.com/post/766290743/using-dropbox-git-repository)
+- [http://gitref.org/](http://gitref.org/)
+- [https://www.dropbox.com/help/19/en](https://www.dropbox.com/help/19/en)
