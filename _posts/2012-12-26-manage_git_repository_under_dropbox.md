@@ -11,12 +11,12 @@ tags:
 Why?
 ----
 
-I was search for a solution to get private repositories for my personal project. 
+I was searching for a solution to get private repositories for my personal project. 
 Github is fine for that but private repositories in Github is not free. So I concluded Github was not fine enough :).
-After some "googlisement", I found "Bitbucker" as the saver, better I found "Dropbox"! What's pretty sweet idea!
+After some "googlisement", I found "Bitbucker" as the savior and then I found  "Dropbox"! What's pretty sweet idea!
 
-Actually, I was searching for the free and easy to access repository, easy to share with a community, Dropbox made
-repository as easy to reach as a local directory. In addition, no ssh public is no needed anymore! It is as sweet as that
+Actually, I needed a free service, an easy to access git server, an easy sharing with a community. Dropbox made
+git repository as easy to reach as a local directory. In addition, no ssh public is no needed anymore! It is as sweet as that
 
 How?
 ----
@@ -24,11 +24,11 @@ How?
 ###1. Dropbox###
 
 You must first have a Dropbox account and install the application on your computer. Once you have you Dropbox directory
-synchronized, you can considere you "git server" is ready for the job.
+synchronized, you can considere your "git server" is ready for the job.
 
 ###2. The repository###
 
-Then create the git repository. On Windows (sometimes we can't choice to be free... :'( ) you can use a Git+. This cool application provides
+Then create the git repository. On Windows (sometimes we can't choice to be free... :'-( ) you can use a Git+. This cool application provides
 a unix-like terminal powerded by Cygwin tool.
 
 {% highlight bash %}
@@ -43,7 +43,7 @@ git --bare init
 Go to your Dropbox directory in the explorer. Right clicks on the repository folder : Dropbox > Share the folder.
 Then enter the mail of the persons you want to add to share you repository with.
 
-Notice : the entered mail addresses must be the same addresses used by your co-workers to create there dropbox account.
+Notice : the entered mail addresses must be the same addresses used by your team mates to create their dropbox accounts.
 
 
 ###4. Working directory###
@@ -59,19 +59,20 @@ git commit test.txt -m 'Initial commit'
 git push origin master
 {% endhighlight %}
 
-- Clone from an existing directory
+- Clone a repo from an existing directory
 
-The repository should have been already shared with you though Dropbox.
+The repository should have been already shared with you viaDropbox.
 
 {% highlight bash %}
 git clone ~/Dropbox/myrepo.git 
 {% endhighlight %}
 
-That's it! No more git user to use anymore, no more privileges to carry on, Git and Dropbox made it possible! :)
+That's it! No more git user to use anymore, no more privileges to care about, Git and Dropbox made it possible! :)
 
 
 Reference
 ---------
 - [http://tumblr.intranation.com/post/766290743/using-dropbox-git-repository](http://tumblr.intranation.com/post/766290743/using-dropbox-git-repository)
 - [http://gitref.org/](http://gitref.org/)
+
 - [https://www.dropbox.com/help/19/en](https://www.dropbox.com/help/19/en)
