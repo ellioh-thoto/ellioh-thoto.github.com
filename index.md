@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: blue
 title: "Ellioh Thot'o"
 ---
 
