@@ -1,3 +1,4 @@
+---
 layout: post
 title: Some shell commands
 published: true  
