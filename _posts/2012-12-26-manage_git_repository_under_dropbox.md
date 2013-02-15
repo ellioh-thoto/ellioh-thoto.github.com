@@ -16,7 +16,7 @@ Github is fine for that but private repositories in Github is not free. So I con
 After some "googlisement", I found "Bitbucker" as the savior and then I found  "Dropbox"! What's pretty sweet idea!
 
 Actually, I needed a free service, an easy to access git server, an easy sharing with a community. Dropbox made
-git repository as easy to reach as a local directory. In addition, no ssh public is no needed anymore! It is as sweet as that
+git repository as easy to reach as a local directory. In addition, no ssh public is no needed anymore! It is as sweet as that.
 
 How?
 ----
@@ -41,7 +41,7 @@ git --bare init
 ###3. Share the repository with your team mates (Optionnal)###
 
 Go to your Dropbox directory in the explorer. Right clicks on the repository folder : Dropbox > Share the folder.
-Then enter the mail of the persons you want to add to share you repository with.
+Then enter the mail of the persons you want to add and share you repository with.
 
 Notice : the entered mail addresses must be the same addresses used by your team mates to create their dropbox accounts.
 
