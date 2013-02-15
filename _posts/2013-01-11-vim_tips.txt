@@ -1,0 +1,40 @@
+layout: post
+title: Vim tips
+published: true  
+
+tags: 
+- shell
+- command-line
+- vi
+- vim
+---
+
+###1. Auto-indentation ###
+{% highlight bash %}
+[Alt]+v # move to visual mode
+aB # select block
+==  # indent
+{% endhighlight %}
+
+###2. Prompt for input ###
+{% highlight bash %}
+function yes_no
+{
+    while true; do
+        echo -e "\e[34m$1"; # add colors
+        echo -e "\033[0m";
+        read yn
+        case $yn in
+            [Yy]* ) return 1;;
+            [Nn]* ) return 0;;
+            * ) echo "Please answer yes or no.";;
+        esac
+        done
+}
+{% endhighlight %}
+
+###3. Display lines###
+{% highlight bash %}
+:set nu
+:set nu! # toggle line display
+{% endhighlight %}
