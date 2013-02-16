@@ -9,7 +9,7 @@ Mon CV est disponible sur [LinkedIn](http://fr.linkedin.com/pub/ellioh-thot-o/59
 Projets
 -------
 
-Mon [profil Github](https://github.com/ellioh-thoto).
+Mon [profil Github](https://github.com/ellioh-thoto){:target="_blank"}.
 
 Articles
 --------
@@ -24,9 +24,9 @@ Articles
 Profils
 -------
 
-* [Twitter](http://twitter.com/elron8)
-* [Google+](https://plus.google.com/100771842465154232833)
-* [Github](http://github.com/ellioh-thoto)
+* [Twitter](http://twitter.com/elron8){:target="_blank"}
+* [Google+](https://plus.google.com/100771842465154232833){:target="_blank"}
+* [Github](http://github.com/ellioh-thoto){:target="_blank"}
 
 Mots clefs
 ----------
