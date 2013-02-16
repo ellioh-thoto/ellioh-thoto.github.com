@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Manage Git repository under Dropbox
+title: Manage Git repository under Dropbox | Ellioh Thot'o
 published: true  
 
 tags: 

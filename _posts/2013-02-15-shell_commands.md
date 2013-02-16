@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Some shell commands
+title: Some shell commands | Ellioh Thot'o
 published: true  
 
 tags: 
 - shell
 - command-line
+- linux
 ---
 
 1. Repeat previous command
