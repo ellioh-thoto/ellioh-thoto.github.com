@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Some shell commands
-header-title: Some shell commands | Ellioh Thot'o
+title: Some shell commands | Ellioh Thot'o
+header-title: Some shell commands
 published: true  
 
 tags: 
