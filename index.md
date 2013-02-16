@@ -10,6 +10,7 @@ Projets
 -------
 
 Mon [profil Github](https://github.com/ellioh-thoto).
+Mon [progil Google Plus](https://plus.google.com/100771842465154232833/posts).
 
 Articles
 --------
