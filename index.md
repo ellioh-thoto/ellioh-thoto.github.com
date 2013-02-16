@@ -31,11 +31,18 @@ Profils
 Mots clefs
 ----------
 
-* PHP
-* symfony
+* PHP5
+* Symfony
+* Zend Framework
 * Propel
 * JQuery
+* Java/J2EE
+* UML
+* SOAP
+* Oracle/MySQL/Postgresql
+* C#
 * Agile
+
 
 Contact
 -------
