@@ -1,6 +1,6 @@
 ---
 layout: blue
-title: "Ellioh Thot'o"
+title: "Ellioh Thot'o - Developeur Web"
 ---
 
 Développeur web, mon CV est disponible sur [LinkedIn](http://fr.linkedin.com/pub/ellioh-thot-o/59/919/b72)
@@ -10,7 +10,6 @@ Projets
 -------
 
 Mon [profil Github](https://github.com/ellioh-thoto).
-Mon [progil Google Plus](https://plus.google.com/100771842465154232833/posts).
 
 Articles
 --------
@@ -22,8 +21,8 @@ Articles
 </ul>
 
 
-Divers
-------
+Profils
+-------
 
 * [Twitter](http://twitter.com/elron8)
 * [Google+](https://plus.google.com/100771842465154232833)
