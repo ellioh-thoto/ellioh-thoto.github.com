@@ -9,24 +9,26 @@ Mon CV est disponible sur [LinkedIn](http://fr.linkedin.com/pub/ellioh-thot-o/59
 Projets
 -------
 
-Mon [profil Github](https://github.com/ellioh-thoto){:target="_blank"}.
+Mon [profil Github](https://github.com/ellioh-thoto).
 
 Articles
 --------
 
-<ul class="posts">
+<table class="posts">
   {% for post in site.posts %}
-    <li><span class="date">{{ post.date | date_to_string }}</span> <span class="separator">&raquo;</span> <a href="{{ post.url }}">{{ post.title | escape }}</a></li>
+    <tr class="post-item">
+        <td class="date">{{ post.date | date_to_string }}</td>
+         <td class="article-title"><a href="{{ post.url }}">{{ post.title | escape }}</a>&nbsp;&nbsp;<span class="separator">&raquo;</span> </td>
+    </tr>
   {% endfor %}
-</ul>
-
+</table>
 
 Profils
 -------
 
-* [Twitter](http://twitter.com/elron8){:target="_blank"}
-* [Google+](https://plus.google.com/100771842465154232833){:target="_blank"}
-* [Github](http://github.com/ellioh-thoto){:target="_blank"}
+* [Twitter](http://twitter.com/elron8)
+* [Google+](https://plus.google.com/100771842465154232833)
+* [Github](http://github.com/ellioh-thoto)
 
 Mots clefs
 ----------
