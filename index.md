@@ -1,6 +1,7 @@
 ---
 layout: blue
 title: "Ellioh Thot'o - Dévelopeur Web"
+header-title: "Ellioh Thot'o - Dévelopeur Web"
 ---
 
 Mon CV est disponible sur [LinkedIn](http://fr.linkedin.com/pub/ellioh-thot-o/59/919/b72)
