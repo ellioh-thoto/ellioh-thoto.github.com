@@ -19,7 +19,7 @@ Articles
   {% for post in site.posts %}
     <tr class="post-item">
         <td class="date">{{ post.date | date_to_string }}</td>
-         <td class="article-title"><a href="{{ post.url }}">{{ post.title | escape }}</a>&nbsp;&nbsp;<span class="separator">&raquo;</span> </td>
+         <td class="article-title"><a href="{{ post.url }}">{{ post.header-title | escape }}</a>&nbsp;&nbsp;<span class="separator">&raquo;</span> </td>
     </tr>
   {% endfor %}
 </table>
