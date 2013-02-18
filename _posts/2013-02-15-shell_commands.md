@@ -39,3 +39,13 @@ svn cat -r r49441 working_dir/path/file
 {% highlight bash %}
 svn log --revision {2013-02-15}:{2013-02-16}|less
 {% endhighlight %}
+
+7. Use grep --exclude. For example, exclude svn hidden directory. 
+{% highlight bash %}
+ grep  searchedterm . -nR --exclude="*\.svn*"  2>/dev/null
+{% endhighlight %}
+
+7. Open a file returned by grep. We use the option '-l' to "clean" the path.
+{% highlight bash %}
+grep  checkStep1 . -lR  2>/dev/null|xargs vim -o
+{% endhighlight %}
