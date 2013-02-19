@@ -42,10 +42,19 @@ svn log --revision {2013-02-15}:{2013-02-16}|less
 
 7. Use grep --exclude. For example, exclude svn hidden directory. 
 {% highlight bash %}
- grep  searchedterm . -nR --exclude="*\.svn*"  2>/dev/null
+ grep  earchedterm . -nR --exclude="*\.svn*"  2>/dev/null
+ grep pattern -Rn --exclude=*\.{svn,html,log} . 2>/dev/null
 {% endhighlight %}
 
-7. Open a file returned by grep. We use the option '-l' to "clean" the path.
+8. Open a file returned by grep. We use the option '-l' to "clean" the path.
 {% highlight bash %}
 grep  checkStep1 . -lR  2>/dev/null|xargs vim -o
 {% endhighlight %}
+
+9. Remove redondant information from apache logs (referer, error, etc.)
+{% highlight bash %}
+tail -f /var/log/apache2/mahara-test.error.log | perl -pe 's/, referer:.*//'
+tail -f /var/log/apache2/mahara-test.error.log | perl -pe 's/\[error\]\s+\[client.*?\]\s+//; s/, referer:.*//'
+More details : (http://nigel.mcnie.name/blog/removing-the-referer-part-of-php-error-messagse-from-apache-logs)[http://nigel.mcnie.name/blog/removing-the-referer-part-of-php-error-messagse-from-apache-logs]
+
+{% endhighlight %}²
