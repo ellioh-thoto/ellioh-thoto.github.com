@@ -10,7 +10,7 @@ tags:
 - linux
 ---
 
-1. Repeat previous command
+#1. Repeat previous command#
 {% highlight bash %}
 !!
 {% endhighlight %}
