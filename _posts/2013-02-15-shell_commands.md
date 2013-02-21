@@ -10,7 +10,7 @@ tags:
 - linux
 ---
 
-#1. Repeat previous command#
+####1. Repeat previous command####
 {% highlight bash %}
 !!
 {% endhighlight %}
@@ -55,6 +55,5 @@ grep  checkStep1 . -lR  2>/dev/null|xargs vim -o
 {% highlight bash %}
 tail -f /var/log/apache2/mahara-test.error.log | perl -pe 's/, referer:.*//'
 tail -f /var/log/apache2/mahara-test.error.log | perl -pe 's/\[error\]\s+\[client.*?\]\s+//; s/, referer:.*//'
-More details : (http://nigel.mcnie.name/blog/removing-the-referer-part-of-php-error-messagse-from-apache-logs)[http://nigel.mcnie.name/blog/removing-the-referer-part-of-php-error-messagse-from-apache-logs]
-
-{% endhighlight %}²
+{% endhighlight %}
+More details : [http://nigel.mcnie.name/blog/removing-the-referer-part-of-php-error-messagse-from-apache-logs](http://nigel.mcnie.name/blog/removing-the-referer-part-of-php-error-messagse-from-apache-logs)
