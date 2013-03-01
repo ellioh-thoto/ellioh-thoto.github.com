@@ -59,3 +59,9 @@ tail -f /var/log/apache2/mahara-test.error.log | perl -pe 's/, referer:.*//'
 tail -f /var/log/apache2/mahara-test.error.log | perl -pe 's/\[error\]\s+\[client.*?\]\s+//; s/, referer:.*//'
 {% endhighlight %}
 More details : [http://nigel.mcnie.name/blog/removing-the-referer-part-of-php-error-messagse-from-apache-logs](http://nigel.mcnie.name/blog/removing-the-referer-part-of-php-error-messagse-from-apache-logs)
+
+10. Display files containing a pattern (in php files): 
+{% highlight bash %}
+find . -type f -name "*.php" -exec grep -il 'HistoryController' {} \;
+grep -iRHs 'HistoryController' . ;
+{% endhighlight %}
