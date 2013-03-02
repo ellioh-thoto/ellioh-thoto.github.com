@@ -15,14 +15,11 @@ Mon [profil Github](https://github.com/ellioh-thoto).
 Articles
 --------
 
-<table class="posts">
+<ul class="posts">
   {% for post in site.posts %}
-    <tr class="post-item">
-        <td class="date">{{ post.date | date_to_string }}</td>
-         <td class="article-title"><a href="{{ post.url }}">{{ post.header-title | escape }}</a>&nbsp;&nbsp;<span class="separator">&raquo;</span> </td>
-    </tr>
+    <li><span class="date">{{ post.date | date_to_string }}</span> <span class="separator">&raquo;</span> <a href="{{ post.url }}">{{ post.header-title post.title | escape }}</a></li>
   {% endfor %}
-</table>
+</ul>
 
 Profils
 -------
