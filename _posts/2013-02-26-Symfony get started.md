@@ -1,7 +1,6 @@
---- 
 layout: post
 title: Symfony Get started | Ellioh Thot'o
-header-title: Symfony Get started | Ellioh Thot'o
+header-title: Symfony Get started
 published: true
 
 tags: 
