@@ -2,7 +2,7 @@
 layout: post
 title: Some shell commands | Ellioh Thot'o
 header-title: Some shell commands
-published: true  
+published: true
 
 tags: 
 - shell
